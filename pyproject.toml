@@ -1,0 +1,24 @@
+[project]
+name = "voice-agent"
+version = "0.1.0"
+description = "Real-time speech-to-speech voice agent using the Gemini Live API"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=3.6.1",
+    "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+voice-agent = "main:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main", "desktop_ui"]
+
+[tool.uv]
+package = true
