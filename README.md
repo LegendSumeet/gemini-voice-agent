@@ -3,6 +3,8 @@
 A minimal real-time speech-to-speech agent. It captures 16 kHz PCM audio from
 the microphone, streams it to the Gemini Live API, and plays Gemini's 24 kHz
 PCM response through the speakers.
+<img width="1130" height="867" alt="image" src="https://github.com/user-attachments/assets/dbedee50-ee6a-4dc9-b56b-27419ac9dad7" />
+
 
 ## Requirements
 
